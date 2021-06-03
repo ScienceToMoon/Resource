@@ -1,0 +1,24 @@
+{
+    "tasks": [
+        {
+            "name": "task_create_wallets",
+            "desc": "创建钱包任务",
+            "path": "/taskTemplate/task_create_wallets.json"
+        },
+        {
+            "name": "task_download_abi",
+            "desc": "下载 abi 任务",
+            "path": "/taskTemplate/task_download_abi.json"
+        },
+        {
+            "name": "task_call_contract",
+            "desc": "调用合约任务",
+            "path": "/taskTemplate/task_call_contract.json"
+        },
+        {
+            "name": "task0",
+            "desc": "此任务为辅助性任务，更新rpc地址，进行测速，更新到配置文件里",
+            "path": "/taskTemplate/task0.json"
+        }
+    ]
+}

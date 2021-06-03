@@ -1,0 +1,14 @@
+{
+    "Desc": "创建钱包动作",
+    "ChainID": 97,
+    "CallMode": "sync",
+    "Actions": [{
+            "Desc": "创建钱包",
+            "Action": "createWallets",
+            "Inputs": [
+                "钱包数量 | number",
+                "保存钱包的文件名 | string"
+            ]
+        }
+    ]
+}

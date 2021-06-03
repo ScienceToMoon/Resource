@@ -1,0 +1,12 @@
+{
+    "Desc": "下载abi",
+    "ChainID": 97,
+    "CallMode": "sync",
+    "Actions": [{
+        "Desc": "下载abi",
+        "Action": "getABIJSONWith",
+        "Inputs": [
+            "想要下载合约ABI的token | string"
+        ]
+    }]
+}

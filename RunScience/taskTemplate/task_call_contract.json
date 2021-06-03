@@ -1,0 +1,22 @@
+{
+    "Desc": "执行合约",
+    "ChainID": 97,
+    "CallMode": "sync",
+    "Actions": [{
+            "Desc": "检查环境",
+            "Action": "checkNet",
+            "mustSuccess": true
+        },
+        {
+            "Desc": "测试 call 方式",
+            "Action": "callContract",
+            "Wallets": "读取的钱包文件名称 | string | bsc_test.json",
+            "WalletIndex": "需要选择的钱包下标，如果删除此字段，将会使用文件中所有钱包地址异步执行此方法:number",
+            "timer": "定时任务执行时间 | string | 2021-05-31 00:53:30",
+            "Inputs": [
+                "方法名称 | string",
+                "合约的 token | string"
+            ]
+        }
+    ]
+}

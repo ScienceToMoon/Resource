@@ -1,0 +1,15 @@
+{
+    "Desc":"此任务为辅助性任务，更新rpc地址，进行测速，更新到配置文件里",
+    "ChainID": 97,
+    "CallMode": "sync",
+    "Actions": [
+        {
+            "Desc": "更新本地 chain info 地址",
+            "Action": "updateChainsJson"
+        },
+        {
+            "Desc": "测速",
+            "Action": "testChainUrlSpeed"
+        }
+    ]
+}

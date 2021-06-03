@@ -1,0 +1,16 @@
+{
+    "Mode": 0,
+    "ChainID": 97,
+    "RPC": {
+    },
+    "ABIApi": {
+        "97": "https://api.bscscan.com/api?module=contract&action=getabi&address=",
+        "56": "https://api.bscscan.com/api?module=contract&action=getabi&address=",
+        "250": "https://api.ftmscan.com/api?module=contract&action=getabi&address="
+    },
+    "Wallets": {
+        "97": "",
+        "250": "",
+        "selected": 0
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "Desc": "init",
+    "ChainID": 97,
+    "CallMode": "sync",
+    "Actions": [{
+            "Desc": "下载基础配置文件",
+            "Action": "downloadConfig"
+        },
+        {
+            "Desc": "下载任务模板文件",
+            "Action": "downloadTaskTemplate"
+        },
+        {
+            "Desc": "更新本地 chain info 地址",
+            "Action": "updateChainsJson"
+        }, {
+            "Desc": "测速",
+            "Action": "testChainUrlSpeed"
+        }
+    ]
+}
